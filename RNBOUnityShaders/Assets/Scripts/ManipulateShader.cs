@@ -15,6 +15,7 @@ public class ManipulateShader : MonoBehaviour
     [SerializeField] System.Int32 paramTwo = 8;
     [SerializeField] System.Int32 paramThree = 10;
     [SerializeField] AudioClip buffer;
+    [SerializeField] Shader shader;
     System.UInt32 inport;
     System.UInt32 inportTwo;
 
@@ -23,7 +24,7 @@ public class ManipulateShader : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         helper = BufferAnalysisHelper.FindById(pluginKey);
-        rend.material.shader = Shader.Find("ShaderCourse/LessonThreeShader");
+        rend.material.shader = shader;
 
         if (buffer)
             {
