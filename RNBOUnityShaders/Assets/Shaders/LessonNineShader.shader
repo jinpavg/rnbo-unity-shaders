@@ -14,6 +14,10 @@ Shader "ShaderCourse/LessonNineShader"
         _UVTex("UV Texture", 2D) = "white" {}
 
         _Input("Input", float) = 0
+        _Speed("Speed", float) = 0
+        _OffsetX("OffsetX", float) = 0
+        _OffsetY("OffsetY", float) = 0
+
         
         
         
@@ -58,6 +62,9 @@ Shader "ShaderCourse/LessonNineShader"
             float4 _DistortionAnimation;
 
             float _Input;
+            float _Speed;
+            float _OffsetX;
+            float _OffsetY;
 
             vertex2fragment vert (appdata v)
             {
@@ -65,6 +72,9 @@ Shader "ShaderCourse/LessonNineShader"
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv1_uv2.xy = TRANSFORM_TEX(v.uv, _MainTex);
                 o.uv1_uv2.zw = TRANSFORM_TEX(v.uv, _UVTex);
+
+                // not using _OffsetX yet
+                o.uv1_uv2.zw += float2(_Speed * _Time.x, _Speed * _OffsetY) * _UVTex_ST.xy;
             
 
                 return o;

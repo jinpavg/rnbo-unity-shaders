@@ -61,8 +61,8 @@ public class ManipulateShader : MonoBehaviour
         helper.GetParamValue(param, out lows);
         rend.material.SetFloat("_Input", ((float)lows) * scale);
         helper.GetParamValue(paramTwo, out mids);
-        rend.material.SetFloat("_Amp", ((float)mids) * scale);
+        rend.material.SetFloat("_OffsetX", ((float)mids) * scale);
         helper.GetParamValue(paramThree, out highs);
-        rend.material.SetFloat("_Offset", ((float)highs) * scale);
+        rend.material.SetFloat("_OffsetY", ((float)highs) * scale);
     }
 }

@@ -237,11 +237,11 @@ MonoBehaviour:
   lows: 0
   mids: 0
   highs: 0
-  scale: 10
+  scale: 2.5
   param: 5
   paramTwo: 8
   paramThree: 10
-  buffer: {fileID: 8300000, guid: eb8b1fae83ba746cb9945a66549caf5d, type: 3}
+  buffer: {fileID: 8300000, guid: b28d4e84fbe9e4574b800c1e6f0c417d, type: 3}
   shader: {fileID: 4800000, guid: d8ecf1bb15b874dc2bd81c3c1384031c, type: 3}
 --- !u!1 &705507993
 GameObject:
