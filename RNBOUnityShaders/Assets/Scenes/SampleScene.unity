@@ -241,7 +241,7 @@ MonoBehaviour:
   param: 5
   paramTwo: 8
   paramThree: 10
-  buffer: {fileID: 8300000, guid: b28d4e84fbe9e4574b800c1e6f0c417d, type: 3}
+  buffer: {fileID: 8300000, guid: 3e8f8aa5ec67e478493ebac376bcb87a, type: 3}
   shader: {fileID: 4800000, guid: d8ecf1bb15b874dc2bd81c3c1384031c, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -585,7 +585,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 7
+  field of view: 34
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -610,14 +610,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.046234757, y: 0, z: 0, w: 0.99893063}
-  m_LocalPosition: {x: 0, y: 1.06, z: -11.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 5.3, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615833473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.279, y: 0, z: 0}
+  m_LocalPosition: {x: -2.89, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1138,7 +1138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077193227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.814, y: 0, z: 0}
+  m_LocalPosition: {x: 2.62, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1160,9 +1160,9 @@ MonoBehaviour:
   lows: 0
   mids: 0
   highs: 0
-  scale: 1
+  scale: 1.2
   param: 5
   paramTwo: 8
   paramThree: 10
-  buffer: {fileID: 8300000, guid: eb8b1fae83ba746cb9945a66549caf5d, type: 3}
-  shader: {fileID: 0}
+  buffer: {fileID: 8300000, guid: c1db410d1e1d74ae7bc04eb165e288d8, type: 3}
+  shader: {fileID: 4800000, guid: d8ecf1bb15b874dc2bd81c3c1384031c, type: 3}
